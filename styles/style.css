@@ -25,10 +25,7 @@ Video Game Industry Research Project
 
     --border:#E7E7E7;
 
-    --primary-soft:#EDE9F8;
     --green-soft:#E5F7E6;
-    --pink-soft:#FDE6F0;
-    --blue-soft:#E5F0FD;
 
 }
 
@@ -583,20 +580,8 @@ body{
 }
 
 
-.consent-icon--primary{
-    background:var(--primary-soft);
-}
-
 .consent-icon--green{
     background:var(--green-soft);
-}
-
-.consent-icon--pink{
-    background:var(--pink-soft);
-}
-
-.consent-icon--blue{
-    background:var(--blue-soft);
 }
 
 
