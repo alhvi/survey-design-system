@@ -25,6 +25,7 @@ survey-design-system/
 ├── branding/        # Color palette and visual guidelines
 ├── components/      # Reusable HTML blocks
 ├── playground/      # HTML prototypes for testing layouts
+├── styles/          # Global stylesheet
 └── xlsform/         # Documentation for XLSForm integration
 ```
 
