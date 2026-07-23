@@ -25,8 +25,7 @@ survey-design-system/
 ├── branding/        # Color palette and visual guidelines
 ├── components/      # Reusable HTML blocks
 ├── playground/      # HTML prototypes for testing layouts
-├── styles/          # Global stylesheet
-└── xlsform/         # Documentation for XLSForm integration
+└── styles/          # Global stylesheet
 ```
 
 ---
@@ -41,7 +40,6 @@ The design system is organized into reusable interface components.
 | Hero | Welcome section |
 | Cards | Summary information cards |
 | Project | Institutional information |
-| Consent | Consent information blocks |
 | Footer | Closing section |
 
 ---
@@ -69,7 +67,8 @@ The interface follows a simple set of principles:
 | Pink | `#F03E93` |
 | Blue | `#2C82E8` |
 | Text | `#444444` |
-| Background | `#FAFAFA` |
+| Background | `#FFFFFF` |
+| Surface | `#FAFAFA` |
 | Border | `#E7E7E7` |
 
 ---
@@ -119,4 +118,4 @@ The illustration should remain simple, modern, and consistent with the overall v
 
 ## License
 
-This repository is intended for use within the Video Game Industry Research Project.
+MIT — see [LICENSE](LICENSE).
