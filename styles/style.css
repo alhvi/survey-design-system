@@ -607,87 +607,6 @@ body{
 }
 
 
-.consent-declaration{
-
-    background:var(--surface);
-
-    border:1px solid var(--border);
-
-    border-radius:16px;
-
-    padding:28px;
-
-    margin-bottom:32px;
-
-}
-
-
-.consent-declaration-title{
-
-    color:var(--primary);
-
-    font-weight:700;
-
-    margin-bottom:4px;
-
-}
-
-
-.consent-declaration-hint{
-
-    color:var(--muted);
-
-    font-size:.9rem;
-
-    margin-bottom:20px;
-
-}
-
-
-.consent-options{
-
-    display:flex;
-
-    justify-content:space-between;
-
-    gap:24px;
-
-    flex-wrap:wrap;
-
-}
-
-
-.consent-option{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:12px;
-
-    cursor:pointer;
-
-}
-
-
-.consent-option input{
-
-    width:20px;
-
-    height:20px;
-
-    accent-color:var(--primary);
-
-}
-
-
-.consent-actions{
-
-    text-align:center;
-
-}
-
-
 /* ======================================================
    RESPONSIVE
 ====================================================== */
@@ -725,14 +644,6 @@ body{
     .consent-grid{
 
         grid-template-columns:1fr;
-
-    }
-
-    .consent-options{
-
-        flex-direction:column;
-
-        align-items:flex-start;
 
     }
 
