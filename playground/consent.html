@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Consentimiento informado — Survey Design System</title>
+
+    <link rel="stylesheet" href="../styles/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- ==========================================
+             TOP BAR
+        =========================================== -->
+
+        <div class="top-bar"></div>
+
+
+        <!-- ==========================================
+             CONSENT
+             components/consent.html
+        =========================================== -->
+
+        <div class="consent-header">
+
+            <div class="consent-logo">
+                <img src="../assets/logos/institutional_logos_light.png" alt="Universidad del Valle de Guatemala y AECID">
+            </div>
+
+            <h1 class="consent-title">Consentimiento informado</h1>
+
+            <p class="consent-subtitle">Antes de continuar, por favor lea la siguiente información:</p>
+
+        </div>
+
+
+        <div class="consent-grid">
+
+            <div class="consent-item">
+                <div class="consent-icon consent-icon--primary">
+                    <img src="../assets/icons/target-arrow.svg" alt="">
+                </div>
+                <div>
+                    <h3 class="consent-item-title">Propósito del estudio</h3>
+                    <p class="consent-item-text">Comprender cómo funciona la industria de videojuegos en Centroamérica (sus capacidades, retos, talento humano y potencial de crecimiento), con especial atención a las condiciones de equidad de género, para generar recomendaciones de política pública que apoyen al sector en la región.</p>
+                </div>
+            </div>
+
+            <div class="consent-item">
+                <div class="consent-icon consent-icon--green">
+                    <img src="../assets/icons/shield-check.svg" alt="">
+                </div>
+                <div>
+                    <h3 class="consent-item-title">Confidencialidad y protección de datos</h3>
+                    <p class="consent-item-text">La información se utiliza únicamente con fines académicos y se reporta de forma agregada; no se identificará públicamente a empresas ni personas participantes. Los datos se almacenan de forma segura por el equipo de investigación de la UVG y los identificadores directos se eliminan al finalizar el análisis.</p>
+                </div>
+            </div>
+
+            <div class="consent-item">
+                <div class="consent-icon consent-icon--green">
+                    <img src="../assets/icons/clipboard-text.svg" alt="">
+                </div>
+                <div>
+                    <h3 class="consent-item-title">Procedimientos</h3>
+                    <p class="consent-item-text">Si acepta participar, se le solicitará responder una encuesta en línea (duración aproximada de 20 a 30 minutos) sobre las características, modelo de negocio, digitalización, exportación, talento, equidad de género, financiamiento, entorno institucional y perspectivas de futuro de su empresa.</p>
+                </div>
+            </div>
+
+            <div class="consent-item">
+                <div class="consent-icon consent-icon--blue">
+                    <img src="../assets/icons/user-heart.svg" alt="">
+                </div>
+                <div>
+                    <h3 class="consent-item-title">Participación voluntaria y retiro</h3>
+                    <p class="consent-item-text">Su participación es voluntaria. Puede negarse a participar o retirarse en cualquier momento, sin penalización ni consecuencia alguna para usted o su organización, y sin pérdida de beneficios a los que tenga derecho.</p>
+                </div>
+            </div>
+
+            <div class="consent-item">
+                <div class="consent-icon consent-icon--pink">
+                    <img src="../assets/icons/alert-triangle.svg" alt="">
+                </div>
+                <div>
+                    <h3 class="consent-item-title">Riesgos o molestias posibles</h3>
+                    <p class="consent-item-text">Los riesgos son mínimos. Algunas preguntas abordan temas sensibles relacionados con equidad de género, acoso o discriminación; puede omitir cualquier pregunta seleccionando "Prefiero no responder". Responder la encuesta puede tomar tiempo de su jornada.</p>
+                </div>
+            </div>
+
+            <div class="consent-item">
+                <div class="consent-icon consent-icon--blue">
+                    <img src="../assets/icons/chart-bar-popular.svg" alt="">
+                </div>
+                <div>
+                    <h3 class="consent-item-title">Compensación</h3>
+                    <p class="consent-item-text">Su participación no recibirá compensación económica, académica ni de otro tipo.</p>
+                </div>
+            </div>
+
+            <div class="consent-item">
+                <div class="consent-icon consent-icon--pink">
+                    <img src="../assets/icons/gift.svg" alt="">
+                </div>
+                <div>
+                    <h3 class="consent-item-title">Beneficios</h3>
+                    <p class="consent-item-text">No se garantiza un beneficio personal o empresarial directo. Su participación contribuye a visibilizar la industria ante instituciones públicas y organismos de cooperación, y a diseñar recomendaciones de política, programas de fortalecimiento y acciones de apoyo para el sector.</p>
+                </div>
+            </div>
+
+            <div class="consent-item">
+                <div class="consent-icon consent-icon--blue">
+                    <img src="../assets/icons/mail.svg" alt="">
+                </div>
+                <div>
+                    <h3 class="consent-item-title">Contacto para dudas</h3>
+                    <p class="consent-item-text">Ing. Alhvi Romancina Balcárcel Rodas<br>arbalcarcel@uvg.edu.gt</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="consent-declaration">
+
+            <h3 class="consent-declaration-title">Declaración de consentimiento</h3>
+
+            <p class="consent-declaration-hint">Seleccione una opción para continuar.</p>
+
+            <div class="consent-options">
+
+                <label class="consent-option">
+                    <input type="radio" name="consent-decision" value="accept">
+                    He leído y comprendido la información anterior, y acepto participar voluntariamente en este estudio.
+                </label>
+
+                <label class="consent-option">
+                    <input type="radio" name="consent-decision" value="decline">
+                    No acepto participar.
+                </label>
+
+            </div>
+
+        </div>
+
+
+        <div class="consent-actions">
+            <button class="btn">Continuar</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

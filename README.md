@@ -40,6 +40,7 @@ The design system is organized into reusable interface components.
 | Hero | Welcome section |
 | Cards | Summary information cards |
 | Project | Institutional information |
+| Consent | Informed consent information and decision |
 | Footer | Closing section |
 
 ---

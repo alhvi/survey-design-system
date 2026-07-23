@@ -25,6 +25,11 @@ Video Game Industry Research Project
 
     --border:#E7E7E7;
 
+    --primary-soft:#EDE9F8;
+    --green-soft:#E5F7E6;
+    --pink-soft:#FDE6F0;
+    --blue-soft:#E5F0FD;
+
 }
 
 
@@ -476,6 +481,229 @@ body{
 
 
 /* ======================================================
+   CONSENT
+====================================================== */
+
+.consent-header{
+
+    text-align:center;
+
+    margin-top:48px;
+
+    margin-bottom:40px;
+
+}
+
+
+.consent-logo{
+
+    margin-bottom:24px;
+
+}
+
+
+.consent-logo img{
+
+    width:min(500px,80%);
+
+    height:auto;
+
+}
+
+
+.consent-title{
+
+    color:var(--primary);
+
+    font-size:1.8rem;
+
+    font-weight:700;
+
+    margin-bottom:12px;
+
+}
+
+
+.consent-subtitle{
+
+    color:var(--muted);
+
+}
+
+
+.consent-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:32px 48px;
+
+    margin-bottom:48px;
+
+}
+
+
+.consent-item{
+
+    display:flex;
+
+    gap:16px;
+
+    align-items:flex-start;
+
+}
+
+
+.consent-icon{
+
+    flex:0 0 48px;
+
+    width:48px;
+
+    height:48px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+}
+
+
+.consent-icon img{
+
+    width:22px;
+
+    height:22px;
+
+}
+
+
+.consent-icon--primary{
+    background:var(--primary-soft);
+}
+
+.consent-icon--green{
+    background:var(--green-soft);
+}
+
+.consent-icon--pink{
+    background:var(--pink-soft);
+}
+
+.consent-icon--blue{
+    background:var(--blue-soft);
+}
+
+
+.consent-item-title{
+
+    color:var(--primary);
+
+    font-size:1.05rem;
+
+    font-weight:600;
+
+    margin-bottom:6px;
+
+}
+
+
+.consent-item-text{
+
+    color:var(--muted);
+
+    font-size:.95rem;
+
+}
+
+
+.consent-declaration{
+
+    background:var(--surface);
+
+    border:1px solid var(--border);
+
+    border-radius:16px;
+
+    padding:28px;
+
+    margin-bottom:32px;
+
+}
+
+
+.consent-declaration-title{
+
+    color:var(--primary);
+
+    font-weight:700;
+
+    margin-bottom:4px;
+
+}
+
+
+.consent-declaration-hint{
+
+    color:var(--muted);
+
+    font-size:.9rem;
+
+    margin-bottom:20px;
+
+}
+
+
+.consent-options{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    gap:24px;
+
+    flex-wrap:wrap;
+
+}
+
+
+.consent-option{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    cursor:pointer;
+
+}
+
+
+.consent-option input{
+
+    width:20px;
+
+    height:20px;
+
+    accent-color:var(--primary);
+
+}
+
+
+.consent-actions{
+
+    text-align:center;
+
+}
+
+
+/* ======================================================
    RESPONSIVE
 ====================================================== */
 
@@ -506,6 +734,20 @@ body{
     .cards{
 
         grid-template-columns:1fr;
+
+    }
+
+    .consent-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .consent-options{
+
+        flex-direction:column;
+
+        align-items:flex-start;
 
     }
 
