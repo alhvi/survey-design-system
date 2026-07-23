@@ -238,8 +238,6 @@ body{
 
     border:1px solid var(--border);
 
-    border-left:6px solid var(--primary);
-
     border-radius:16px;
 
 }
