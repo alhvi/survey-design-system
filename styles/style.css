@@ -25,7 +25,10 @@ Video Game Industry Research Project
 
     --border:#E7E7E7;
 
+    --primary-soft:#EDE9F8;
     --green-soft:#E5F7E6;
+    --pink-soft:#FDE6F0;
+    --blue-soft:#E5F0FD;
 
 }
 
@@ -608,6 +611,277 @@ body{
 
 
 /* ======================================================
+   SUPPORT RESOURCES
+====================================================== */
+
+.support-eyebrow{
+
+    color:var(--primary);
+
+    font-size:.85rem;
+
+    font-weight:700;
+
+    letter-spacing:1.5px;
+
+    text-transform:uppercase;
+
+    margin-top:48px;
+
+    margin-bottom:24px;
+
+}
+
+
+.support-logo{
+
+    text-align:center;
+
+    margin-bottom:32px;
+
+}
+
+
+.support-logo img{
+
+    width:min(500px,80%);
+
+    height:auto;
+
+}
+
+
+.support-title-row{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:16px;
+
+    margin-bottom:20px;
+
+}
+
+
+.support-title-icon{
+
+    flex:0 0 56px;
+
+    width:56px;
+
+    height:56px;
+
+    border-radius:50%;
+
+    background:var(--primary-soft);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+}
+
+
+.support-title-icon img{
+
+    width:26px;
+
+    height:26px;
+
+}
+
+
+.support-title{
+
+    color:var(--primary);
+
+    font-size:2rem;
+
+    font-weight:700;
+
+}
+
+
+.support-divider{
+
+    width:220px;
+
+    height:6px;
+
+    border-radius:999px;
+
+    margin:0 auto 32px;
+
+    background:
+    linear-gradient(
+        90deg,
+
+        var(--primary) 0%,
+        var(--primary) 25%,
+
+        var(--green) 25%,
+        var(--green) 50%,
+
+        var(--pink) 50%,
+        var(--pink) 75%,
+
+        var(--blue) 75%,
+        var(--blue) 100%
+
+    );
+
+}
+
+
+.support-subtitle{
+
+    color:var(--muted);
+
+    text-align:center;
+
+    max-width:640px;
+
+    margin:0 auto 40px;
+
+}
+
+
+.support-list{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:16px;
+
+    margin-bottom:16px;
+
+}
+
+
+.support-item{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:20px;
+
+    padding:20px 24px;
+
+    border:1px solid var(--border);
+
+    border-radius:14px;
+
+    background:white;
+
+}
+
+
+.support-icon{
+
+    flex:0 0 48px;
+
+    width:48px;
+
+    height:48px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+}
+
+
+.support-icon img{
+
+    width:22px;
+
+    height:22px;
+
+}
+
+
+.support-icon--primary{
+    background:var(--primary-soft);
+}
+
+.support-icon--green{
+    background:var(--green-soft);
+}
+
+.support-icon--pink{
+    background:var(--pink-soft);
+}
+
+.support-icon--blue{
+    background:var(--blue-soft);
+}
+
+
+.support-item-title{
+
+    font-size:1rem;
+
+    font-weight:700;
+
+    margin-bottom:6px;
+
+}
+
+
+.support-item-title--primary{
+    color:var(--primary);
+}
+
+.support-item-title--green{
+    color:var(--green);
+}
+
+.support-item-title--pink{
+    color:var(--pink);
+}
+
+.support-item-title--blue{
+    color:var(--blue);
+}
+
+
+.support-item-text{
+
+    color:var(--muted);
+
+    font-size:.9rem;
+
+}
+
+
+.support-closing{
+
+    background:var(--surface);
+
+}
+
+
+.support-link{
+
+    color:var(--primary);
+
+    font-weight:600;
+
+}
+
+
+/* ======================================================
    RESPONSIVE
 ====================================================== */
 
@@ -655,6 +929,14 @@ body{
     .consent-grid{
 
         grid-template-columns:1fr;
+
+    }
+
+    .support-item{
+
+        flex-direction:column;
+
+        align-items:flex-start;
 
     }
 
