@@ -614,43 +614,6 @@ body{
    SUPPORT RESOURCES
 ====================================================== */
 
-.support-eyebrow{
-
-    color:var(--primary);
-
-    font-size:.85rem;
-
-    font-weight:700;
-
-    letter-spacing:1.5px;
-
-    text-transform:uppercase;
-
-    margin-top:48px;
-
-    margin-bottom:24px;
-
-}
-
-
-.support-logo{
-
-    text-align:center;
-
-    margin-bottom:32px;
-
-}
-
-
-.support-logo img{
-
-    width:min(500px,80%);
-
-    height:auto;
-
-}
-
-
 .support-title-row{
 
     display:flex;
@@ -660,6 +623,8 @@ body{
     justify-content:center;
 
     gap:16px;
+
+    margin-top:48px;
 
     margin-bottom:20px;
 
