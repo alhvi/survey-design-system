@@ -865,6 +865,33 @@ body{
 }
 
 
+.support-resource{
+
+    margin-bottom:12px;
+
+}
+
+
+.support-resource:last-child{
+
+    margin-bottom:0;
+
+}
+
+
+.support-resource-name{
+
+    color:var(--text);
+
+    font-weight:600;
+
+    font-size:.9rem;
+
+    margin-bottom:2px;
+
+}
+
+
 .support-closing{
 
     background:var(--surface);
